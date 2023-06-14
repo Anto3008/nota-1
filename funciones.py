@@ -9,5 +9,4 @@ def numero_primo(num):
                 return False
             elif num % divisor != 0 and divisor == num-1:
                 return True
-
-print()
+print(numero_primo)
